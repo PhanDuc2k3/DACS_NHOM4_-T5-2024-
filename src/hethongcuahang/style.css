@@ -142,6 +142,10 @@ a{
     padding: 16px 10px;
     border-bottom: 1px solid black;
 }
+
+.container_item p{
+    margin: 0;
+}
 /* đây là css footer*/
 .footer {
             display: flex;
