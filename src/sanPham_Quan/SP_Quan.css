@@ -1,0 +1,181 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    margin: 0;
+    padding:0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.header{
+    display: flex;
+    background-color: #f3f3f3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    
+}
+.navbar{
+    background-color: FFE1BD;
+    border-radius: 1px solid black;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+.navbar-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-tab{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.nav-tab .nav-item.selected {
+    background-color: #d3d3d3; /* Màu xám khi được chọn */
+}
+.nav-tab .nav-item{
+    margin-right: 20px;
+}
+
+.nav-link{
+    
+    color: black;
+    font-size: 20px;
+    list-style-type: none;
+}
+
+.logo a{
+    font-weight: blod;
+    color: black;
+    font-size: 24px;
+}
+
+.nav-link ion-icon{
+    margin-left: 10px;
+}
+.nav-links {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links .nav-item {
+    margin-right: 30px;
+    position: relative;
+}
+
+.nav-links .nav-link {
+    text-decoration: none;
+    color: #000;
+}
+
+.nav-links .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 110%;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+    z-index: 1000;
+    opacity: 0; /* Bắt đầu ẩn */
+    transition: opacity 0.5s ease, transform 0.5s ease; /* Hiệu ứng chuyển đổi cho opacity và transform */
+    transform: translateY(-20px); /* Di chuyển lên trên */
+}
+
+.nav-links .dropdown-menu .dropdown-item {
+    padding: 10px 20px;
+}
+
+.nav-links .dropdown-menu .dropdown-item a {
+    text-decoration: none;
+    color: #000;
+    white-space: nowrap; /* Đảm bảo mỗi mục chỉ chiếm một dòng */
+}
+
+.nav-links .dropdown-menu .dropdown-item a:hover {
+    background-color: #f8f8f8;
+}
+
+.nav-item:hover .dropdown-menu {
+    display: block;
+    opacity: 1; /* Hiển thị menu với hiệu ứng mờ dần */
+}
+
+
+
+
+/* Bắt đầu từ css của content*/
+
+.content{
+    padding-top: 20px;
+}
+
+.container_content_header{
+    margin: 30px 10%;
+    display: flex;
+    justify-content: space-around; /* Cách đều các phần tử */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    text-align: center;
+}
+.link_content_header {
+    margin-right: 20px;
+    color: gray;
+    font-weight: normal;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.link_content_header.active {
+    color: black;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+}
+
+/* Đây là css các sản phẩm*/
+
+.product-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product-item {
+    text-align: center;
+    margin: 10px;
+}
+
+.product-item img {
+    max-width: 200px;
+    height: auto;
+}
+
+.price {
+    font-weight: bold;
+    color: black;
+}
+
+.original-price {
+    text-decoration: line-through;
+    color: gray;
+}
+
+
+/* đây là css footer*/
+.footer {
+            display: flex;
+            justify-content: space-between;
+            background-color: #f3f3f3;
+            margin-top: 50px;
+        }
+.company-info, .map-container, .map_hotline {
+            width: 33%;
+        }
