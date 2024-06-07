@@ -1,0 +1,233 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    margin: 0;
+    padding:0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.header{
+    display: flex;
+    background-color: #f3f3f3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    
+}
+.navbar{
+    background-color: FFE1BD;
+    border-radius: 1px solid black;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+.navbar-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-tab{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.nav-tab .nav-item.selected {
+    background-color: #d3d3d3; /* Màu xám khi được chọn */
+}
+.nav-tab .nav-item{
+    margin-right: 20px;
+}
+
+.nav-link{
+    
+    color: black;
+    font-size: 20px;
+    list-style-type: none;
+}
+
+.logo a{
+    font-weight: blod;
+    color: black;
+    font-size: 24px;
+}
+
+.nav-link ion-icon{
+    margin-left: 10px;
+}
+.nav-links {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links .nav-item {
+    margin-right: 30px;
+    position: relative;
+}
+
+.nav-links .nav-link {
+    text-decoration: none;
+    color: #000;
+}
+
+.nav-links .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 110%;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+    z-index: 1000;
+    opacity: 0; /* Bắt đầu ẩn */
+    transition: opacity 0.5s ease, transform 0.5s ease; /* Hiệu ứng chuyển đổi cho opacity và transform */
+    transform: translateY(-20px); /* Di chuyển lên trên */
+}
+
+.nav-links .dropdown-menu .dropdown-item {
+    padding: 10px 20px;
+}
+
+.nav-links .dropdown-menu .dropdown-item a {
+    text-decoration: none;
+    color: #000;
+    white-space: nowrap; /* Đảm bảo mỗi mục chỉ chiếm một dòng */
+}
+
+.nav-links .dropdown-menu .dropdown-item a:hover {
+    background-color: #f8f8f8;
+}
+
+.nav-item:hover .dropdown-menu {
+    display: block;
+    opacity: 1; /* Hiển thị menu với hiệu ứng mờ dần */
+}
+
+
+
+
+/* Bắt đầu từ css của content*/
+
+.content{
+    padding-top: 20px;
+    
+}
+
+/* Đây là css form*/
+.all {
+    display: flex;
+    padding: 32px 16px;
+    align-items: center; /* Căn giữa theo chiều dọc */
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    gap: 5%;
+    border-radius: 16px;
+    background: #FFF;
+}
+
+.box_img{
+    display: flex;
+    padding: 0px 0px;
+    align-items: center; /* Căn giữa theo chiều dọc */
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    gap: 10px;
+}
+
+.box_inf{
+    
+padding: 0px 0px;
+align-items: flex-start;
+gap: 10px;
+}
+
+.box_inf_1{
+    display: flex;
+    
+align-items: center;
+gap: 20px;
+padding-bottom: 20px;
+}
+
+.box_inf_1_1{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 8px;
+
+}
+
+.p_1{
+    color: var(--neutral-light-2, #939393);
+
+/* Paragraph 3/Regular */
+/* font-family: Poppins; */
+font-weight: 400;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+}
+
+.p_2{
+    /* color: var(--neutral-dark-1, #111); */
+color: orange;
+/* Paragraph 1/Medium */
+/* font-family: Poppins; */
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px; /* 140% */
+width: 180px;
+border-bottom: 1px solid black;
+margin-top: -15px;
+
+}
+
+.button_box{
+    margin-top: 30px;
+    display: flex;
+    padding-left: 388px;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+button{
+    display: flex;
+align-items: flex-start;
+gap: 21px;
+width: 150px;
+height: 40px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 16px;
+}
+
+.custom-button{
+    background-color: #f3f3f3; /* Màu xám nhạt */
+    color: black;
+    border: none;
+    padding: 10px 20px; /* Thêm padding để làm nút đẹp hơn */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Thêm hiệu ứng chuyển đổi mượt mà */
+}
+.custom-button:hover {
+    background-color: black; /* Màu đen khi di chuột vào */
+    color: white; /* Thay đổi màu chữ khi di chuột vào */
+}
+/* đây là css footer*/
+.footer {
+            display: flex;
+            justify-content: space-between;
+            background-color: #f3f3f3;
+            margin-top: 50px;
+        }
+.company-info, .map-container, .map_hotline {
+            width: 33%;
+        }
