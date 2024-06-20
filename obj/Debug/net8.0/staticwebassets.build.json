@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "WgppMCknE+lgYFn7UCGJVUeOtp454AJFY2WS3wYa+qA=",
+  "Hash": "fe8J0BGdPcwziYIN5yAXLN+25IN8qdTgRzQJav/dJPo=",
   "Source": "DACS",
   "BasePath": "_content/DACS",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\DoAn\\DACS\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\DACS.bundle.scp.css"
+    },
+    {
+      "Identity": "D:\\DoAn\\DACS\\wwwroot\\css\\login.css",
+      "SourceId": "DACS",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DoAn\\DACS\\wwwroot\\",
+      "BasePath": "_content/DACS",
+      "RelativePath": "css/login.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\login.css"
     },
     {
       "Identity": "D:\\DoAn\\DACS\\wwwroot\\css\\site.css",

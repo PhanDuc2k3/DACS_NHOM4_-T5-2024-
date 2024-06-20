@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\DACS.bundle.scp.css"
     },
     {
+      "Id": "D:\\DoAn\\DACS\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
       "Id": "D:\\DoAn\\DACS\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
